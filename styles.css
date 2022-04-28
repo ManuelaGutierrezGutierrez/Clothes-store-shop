@@ -1,0 +1,201 @@
+* {
+	padding: 0%;
+	margin: 0%;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: white;
+	color: black;
+}
+
+a {
+	color: black;
+}
+
+/* Zona header */
+
+.header-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.sections-container__gender {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 30px;
+	font-size: 2rem;
+}
+
+.sections-container-anchor {
+	color: black;
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: bold;
+	margin: 5px 5px;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	font-size: 3rem;
+}
+
+.filter-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.filter-container__p {
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	padding: 40px 20px 10px 20px;
+}
+
+/* Barra de navegación  */
+
+nav {
+	position: fixed;
+}
+
+nav li {
+	margin: 10px 0px;
+}
+
+nav a {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: black;
+	margin-left: 5px;
+}
+
+/* Span para dar color rojo */
+
+.red {
+	color: red;
+}
+
+/*Escaparate de camisetas*/
+
+.tee-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.tee-section__container {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+}
+
+.tee-section__img,
+.tee-section__item,
+.tee-section__price {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tee-section__img {
+	width: 300px;
+	height: 350px;
+}
+
+/* Zona final de la web */
+
+hr {
+	background-color: #ebebed;
+}
+
+.newsletter-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.newsletter-container__discount {
+	font-weight: bold;
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+
+.newsletter-container__newsletter {
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+.email-input {
+	border: 0;
+	text-align: center;
+}
+
+.newsletter-contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	margin: 20px 10px;
+}
+
+.newsletter-contact p {
+	padding: 5px;
+}
+
+.green {
+	color: lightgreen;
+}
+
+/* Zona del footer */
+
+/* Enlaces del footer */
+
+.legal-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.legal-container__block {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+}
+
+.legal-container__title {
+	display: flex;
+	flex-direction: column;
+	font-weight: bold;
+	margin: 40px 0px 10px 0px;
+	font-size: 0.75rem;
+}
+
+.legal-container__list {
+	display: flex;
+	flex-direction: column;
+}
+
+.legal-container__list--item {
+	margin: 5px 0px 5px 0px;
+	font-size: 0.75rem;
+}
+
+.app-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.app__anchor {
+	margin: 10px 10px 50px 10px;
+}
+.app__anchor i {
+	padding-right: 5px;
+}
